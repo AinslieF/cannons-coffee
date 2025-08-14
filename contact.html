@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/latte-styles.css">
+</head>
+
+<body>
+    <div class="whole">
+        <header>
+            <div>
+                <img src="images/logo-nav.webp" alt="Cannons Coffee, Beans of Joy! Est. 2014." />
+                <h1>Cannons Coffee</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="latte.html" target="_blank">Coffee</a></li>
+                    <li><a href="https://www.starbucks.com/menu/product/468/iced" target="_blank">About</a></li>
+                    <li><a href="mailto:ainsliefrancisdec16@gmail.com">Email</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <li><a href="login.html" target="_blank">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <h1>
+            Contact Page
+        </h1>
+        <div class="container">
+            <form class="form-container">
+        
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="" required>
+                </p>
+        
+                <p>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="email" placeholder="" required>
+                </p>
+        
+                <p>
+                    <label for="phonenumber">Phone Number:</label>
+                    <input type="tel" id="phonenumber" name="phonenumber" placeholder="" required>
+                </p>
+        
+                <p>
+                    <label for="flavor">Choose Favorite Coffee Flavor:</label>
+                </p>
+                <p>
+                    <select name="flavor" id="flavor" required>
+                        <option placeholder="">--Please choose an option--</option>
+                        <option placeholder="caramel">Caramel</option>
+                        <option placeholder="frenchvanilla">French Vanilla</option>
+                        <option placeholder="mocha">Mocha</option>
+                    </select>
+                </p>
+        
+                <p>
+                    <label>Options:</label>
+                </p>
+                <p>
+                    <input type="radio" id="interestedinbuyingcoffee" name="interest" placeholder="interestedinbuyingcoffee"
+                        required>
+                    <label for="interestedinbuyingcoffee">Interested In Buying Coffee?</label>
+        
+                    <input type="radio" id="seekingemployment" name="interest" placeholder="seekingemployment" required>
+                    <label for="seekingemployment">Interested In Seeking Employment?</label>
+        
+                <p>
+                    <label for="comments">Leave a Comment:</label>
+                    <textarea id="comments" name="comments" placeholder=""></textarea>
+                </p>
+        
+                <p>
+                    <button type="submit">Press Me</button>
+                </p>
+            </form>
+        </div>
+        </main>
+
+        <footer>
+            <img src="images/logo-footer.webp" alt="Cannons Coffee, Beans of Joy! Est. 2014." />
+
+            <p>&copy;2024 Cannons Coffee. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="js/custom-contact.js"></script>
+</body>
+
+</html>
