@@ -1,5 +1,5 @@
 let container = document.querySelector(".container");
-let form = document.querySelector(".form-container");
+let form = document.querySelector(".form");
 console.log(form);
 
 form.addEventListener("submit", onSubmit);
